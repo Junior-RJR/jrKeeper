@@ -1,8 +1,8 @@
 {
-    "rewrites": [
+    "routes": [
       {
-        "source": "/(.*)",
-        "destination": "/src/server-vercel.js"
+        "src": "/(.*)",
+        "dest": "/src/server-vercel.js"
       }
     ]
   }
